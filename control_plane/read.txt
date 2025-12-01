@@ -1,0 +1,11 @@
+validation:
+1. each customer is processed once; keep track of the processed customers; hourly breakdown is currently overwritten
+2. we assume no overnight wrapping for the MVP
+3. print customers by sorted by name or something else to ensure reproducibility
+4. we set min value for utilization factor = 0.01
+
+
+extensions:
+1. logging system
+2. capture dead letter queue
+3. 

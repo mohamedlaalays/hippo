@@ -55,6 +55,7 @@ class InputParser:
                         duration = int(row[1].strip())
                         start = InputParser.extract_hour(row[2].strip())
                         end = InputParser.extract_hour(row[3].strip())
+                        if end == 0: end = 24 # using assumption there is 24th hour of the day
                         calls = int(row[4].strip())
                         priority = int(row[5].strip())
 

@@ -51,6 +51,7 @@ To run the E2E test, execute:
 make e2e_tests
 ```
 
+## Viz
 To run the viz tool, execute,
 ```bash
 make viz

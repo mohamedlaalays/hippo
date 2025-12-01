@@ -23,6 +23,12 @@ The Control Plane project is designed to manage and schedule tasks based on inpu
       - `e2e_ground_truth.csv`: Ground truth data for end-to-end tests.
       - `e2e_input.csv`: Input data for end-to-end tests.
 
+## Starting
+To install the project requirements, run:
+```
+pip install -r requirements.txt
+```
+in the control_plane dir. We recommend creating a virtual env to isolate the dependencies.
 
 ## Usage
 To run the project, use the following command:
